@@ -9728,9 +9728,22 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
-.bg-gallery {
+/* .bg-gallery {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
   background-size: cover;
+} */
+@media (min-width: 1024px){
+.bg-marraige {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Marraige/marraige_bg.JPG), no-repeat center center;
+  background-size: cover;
+}
+}
+
+@media (min-width: 1024px){
+.bg-pellikuthuru {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pelli_kuthuru/pellikuthuru_bg.png), no-repeat center center;
+  background-size: cover;
+}
 }
 
 .gallery-carousel .owl-nav {
